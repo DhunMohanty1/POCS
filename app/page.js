@@ -123,6 +123,17 @@ export default function HomePage() {
           </p>
         </div>
       </div>
+{/* ✅ About Section - Left Aligned */}
+<section className="py-20 px-6 md:px-20 bg-white text-gray-800 flex flex-col items-start">
+  <h2 className="text-5xl font-bold mb-6">Some Words ABOUT</h2>
+  <div className="max-w-5xl text-lg leading-8 space-y-6">
+   
+    <p>
+      <strong className="text-gray-900">Prabasi Oriya Cultural Society:</strong> Prabasi Oriya Cultural Society is a non-profit socio-cultural organization of Odias in Chennai. It was established in 2006 by a group of like-minded individuals aiming to connect people living in the Tamil Nadu who called Odisha their home.
+    </p>
+  </div>
+</section>
+
 
       {/* ✅ Mission Section */}
       <section id="mission" className="py-20 px-6 md:px-20 flex flex-col md:flex-row gap-10 bg-gray-100 items-center">
